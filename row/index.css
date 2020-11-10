@@ -1,0 +1,33 @@
+.l-row {
+    display: flex;
+    padding-top: .1rem;
+}
+
+.l-row__move {
+    background: white;
+}
+
+.l-row__left {
+    display: flex;
+    background: lightgray;
+    height: 8rem;
+    width: 10rem;
+}
+
+.l-row__position {
+    background: black;
+    color: white;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+}
+
+.l-row__right {
+    display: flex;
+    flex: 1;
+    background: white;
+}
+
+.l-row__close {
+    margin-left: auto;
+}

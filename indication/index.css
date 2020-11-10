@@ -1,4 +1,53 @@
-.l-workspace-head {
+.l-indication {
+    background: white;
+    margin: .4rem;
+}
+
+.l-indication__head {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+}
+
+.l-indication__back {
+    background		: url("//oncology.en.hegc.cl/images/icono_volver.svg") no-repeat center;
+	background-size: 1.5rem 2rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 3rem;
+    margin-right: 1.5rem;
+}
+
+.l-indication__templates {
+    display: flex;
+}
+
+.l-indication__contend {
+    width: 100%;
+}
+
+.l-indication__template__head {
+    display: flex;
+    align-items: center;
+}
+
+.l-indicatin__actions {
+    display: flex;
+}
+
+.l-indicaton__button {
+    background: white;
+    border-width: .1rem;
+    margin: 0 .3rem;
+}
+
+.l-indication__button--left {
+    margin-left: auto;
+}
+
+.l-indication__button--save {
+    background-color: red;
+}
+
+.l-indication__rows {
+    background: #3b3c42;
 }

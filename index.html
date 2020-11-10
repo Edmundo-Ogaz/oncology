@@ -4,6 +4,8 @@
         <link href="header/index.css" rel="stylesheet">
         <link href="desk/index.css" rel="stylesheet">
         <link href="indication/index.css" rel="stylesheet">
+        <link href="property/index.css" rel="stylesheet">
+        <link href="row/index.css" rel="stylesheet">
         <style>
             #app {
                 background: #3b3c42;
@@ -22,6 +24,8 @@
             import { wHeader } from "./header/index.js"
             import { wDesk } from "./desk/index.js"
             import { wIndication } from "./indication/index.js"
+            import { wProperty } from "./property/index.js"
+            import { wRow } from "./row/index.js"
 
             const router = new VueRouter({
                 routes: [
@@ -37,6 +41,8 @@
             })
 
             Vue.component('w-header', wHeader);
+            Vue.component('w-property', wProperty);
+            Vue.component('w-row', wRow);
 
             const app = new Vue({
             router
