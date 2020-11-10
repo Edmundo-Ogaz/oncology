@@ -3,21 +3,44 @@
         <!-- <script defer type="module" src="//shared.en.hegc.cl/base/preloader.js"></script> -->
         <link href="header/index.css" rel="stylesheet">
         <link href="desk/index.css" rel="stylesheet">
+        <link href="indication/index.css" rel="stylesheet">
+        <style>
+            #app {
+                background: #3b3c42;
+                min-height: 100%;
+            }
+        </style>
     </head>
     <body>
         <div id="app">
             <w-header></w-header>
-            <w-desk></w-desk>
+            <router-view></router-view>
         </div>
         <script defer src="//shared.en.hegc.cl/vue-v2.6.10-dev.js"></script>
         <script defer src="//unpkg.com/vue-router@3.4.9/dist/vue-router.js"></script>
         <script type="module">
             import { wHeader } from "./header/index.js"
             import { wDesk } from "./desk/index.js"
+            import { wIndication } from "./indication/index.js"
+
+            const router = new VueRouter({
+                routes: [
+                    { path: '/protocol/lla', component: wDesk,
+                        children: [
+                            {
+                                path: 'indication',
+                                component: wIndication
+                            }
+                        ]
+                    }
+                ]
+            })
+
             Vue.component('w-header', wHeader);
-            Vue.component('w-desk', wDesk);
-            new Vue({ el: '#app' })
+
+            const app = new Vue({
+            router
+            }).$mount('#app')
         </script>
-        
     </body>
 </html>

@@ -9,6 +9,6 @@
       </div>
   `;
 
-export const window = {
+export const wIndication = {
   template : tComponent
 }
