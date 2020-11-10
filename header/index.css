@@ -1,0 +1,32 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    background: #d9d5d5;
+}
+.logo {
+    background: url("//shared.en.hegc.cl/assets/hegc/icon--circulo-reloj-arena.svg") no-repeat center;
+    height: 2rem;
+    width: 3rem;
+}
+.title {
+    align-items: center;
+    display: flex;
+}
+.user {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: .7rem;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logout {
+    -webkit-mask		: url("//shared.en.hegc.cl/assets/hegc/icon--salida.svg") no-repeat center;
+	-webkit-mask-size: 1.5rem 2rem;
+    background-color	: #3b3c42;
+    cursor: pointer;
+    height: 2rem;
+    width: 3rem;
+    margin-right: 1.5rem;
+}

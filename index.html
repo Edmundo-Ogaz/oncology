@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <!-- <script defer type="module" src="//shared.en.hegc.cl/base/preloader.js"></script> -->
+        <link href="header/index.css" rel="stylesheet">
+        <link href="desk/index.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="app">
+            <w-header></w-header>
+            <w-desk></w-desk>
+        </div>
+        <script defer src="//shared.en.hegc.cl/vue-v2.6.10-dev.js"></script>
+        <script defer src="//unpkg.com/vue-router@3.4.9/dist/vue-router.js"></script>
+        <script type="module">
+            import { wHeader } from "./header/index.js"
+            import { wDesk } from "./desk/index.js"
+            Vue.component('w-header', wHeader);
+            Vue.component('w-desk', wDesk);
+            new Vue({ el: '#app' })
+        </script>
+        
+    </body>
+</html>
