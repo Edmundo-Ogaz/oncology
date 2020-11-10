@@ -17,6 +17,14 @@
     margin-right: 1.5rem;
 }
 
+.l-indication__breadcrumb {
+    color: #a9a7a7
+}
+.l-indication  hr {
+    border-top: 1px solid #a9a7a7;
+    margin: 0 1rem;
+}
+
 .l-indication__templates {
     display: flex;
 }
@@ -25,19 +33,35 @@
     width: 100%;
 }
 
+.l-indication__contend hr {
+    margin-left: 0;
+}
+
 .l-indication__template__head {
     display: flex;
     align-items: center;
 }
 
-.l-indicatin__actions {
-    display: flex;
+.l-indication__template__head p {
+    font-family: 'Dosis', sans-serif;
+    font-size: .8rem;
+    color: #7c7878;
 }
 
-.l-indicaton__button {
+.l-indication__actions {
+    display: flex;
+    margin: 1rem;
+}
+
+.l-indication__button {
     background: white;
     border-width: .1rem;
     margin: 0 .3rem;
+    border-radius: .3rem;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: .7rem;
+    color: #7c7878;
 }
 
 .l-indication__button--left {
@@ -45,9 +69,28 @@
 }
 
 .l-indication__button--save {
-    background-color: red;
+    background: #ff4700;
+    color: white;
+    margin-right: 1rem;
+}
+
+.l-indication__button--import {
+    background: url("//oncology.en.hegc.cl/images/BDI-_icon-mover_abajo_bloq.svg") no-repeat .6rem;
+    padding-left: 1rem;
+    min-width: 9rem;
 }
 
 .l-indication__rows {
-    background: #3b3c42;
+    overflow: scroll;
+    height: 35rem;
+    margin-right: 1rem;
+    border-top: .1rem solid lightgrey;
+}
+
+.l-indication__move {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: .6rem;
+    color: #7c7878;
+    padding: .3rem 0;
 }

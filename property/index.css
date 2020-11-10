@@ -1,4 +1,10 @@
 .l-property {
     height: 10rem;
     width: 15rem;
+    margin: 0 1rem;
+}
+
+.l-property__title {
+    color: tomato;
+    margin-top: .5rem;
 }

@@ -1,10 +1,32 @@
 .l-row {
     display: flex;
-    padding-top: .1rem;
 }
 
 .l-row__move {
     background: white;
+}
+
+.l-row__up {
+    background		: url("//oncology.en.hegc.cl/images/BDI-_icon-mover_arriba_bloq.svg") no-repeat center;
+    cursor: pointer;
+    height: 1rem;
+    width: 2rem;
+    margin-bottom: .2rem;
+}
+
+.l-row__down {
+    background		: url("//oncology.en.hegc.cl/images/BDI-_icon-mover_abajo_bloq.svg") no-repeat center;
+    cursor: pointer;
+    height: 1rem;
+    width: 2rem;
+    margin-bottom: .2rem;
+}
+
+.l-row__contend {
+    background: #3b3c42;
+    display: flex;
+    flex: 1;
+    padding-top: .1rem;
 }
 
 .l-row__left {
@@ -30,4 +52,6 @@
 
 .l-row__close {
     margin-left: auto;
+    margin-right: .6rem;
+    cursor: pointer;
 }
