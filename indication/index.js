@@ -8,7 +8,7 @@
         <hr/>
         <div class="l-indication__templates">
           <w-property></w-property>
-          <div class="l-indication__contend">
+          <div class="l-indication__content">
             <div class="l-indication__template__head">
               <p> > Día 8 al 14</p>
               <button type="button" class="l-indication__button l-indication__button--left">Cancelar</button>

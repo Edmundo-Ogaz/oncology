@@ -5,7 +5,7 @@
           <div class="l-row__up"></div>
           <div class="l-row__down"></div>
         </div>
-        <div class="l-row__contend">
+        <div class="l-row__content">
           <div class="l-row__left">
             <div class="l-row__position">
               1

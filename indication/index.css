@@ -29,11 +29,11 @@
     display: flex;
 }
 
-.l-indication__contend {
+.l-indication__content {
     width: 100%;
 }
 
-.l-indication__contend hr {
+.l-indication__content hr {
     margin-left: 0;
 }
 
