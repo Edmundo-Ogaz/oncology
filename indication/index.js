@@ -16,13 +16,13 @@
             </div>
             <hr/>
             <div class="l-indication__actions">
-              <button type="button" class="l-indication__button l-indication__button--import l-indication__button--left">Inportar block</button>
-              <button type="button" class="l-indication__button">Farmaco</button>
-              <button type="button" class="l-indication__button">Fleboclisis</button>
-              <button type="button" class="l-indication__button">Laboratorio/UMT</button>
-              <button type="button" class="l-indication__button">Procedimientos</button>
-              <button type="button" class="l-indication__button">Interconsultas</button>
-              <button type="button" class="l-indication__button">Otras indicaciones</button>
+              <button type="button" class="l-indication__button l-indication__button--import l-indication__button--left">Importar block</button>
+              <button type="button" class="l-indication__button l-indication__button--drug">Fármaco</button>
+              <button type="button" class="l-indication__button l-indication__button--fleboclisis">Fleboclisis</button>
+              <button type="button" class="l-indication__button l-indication__button--laboratory">Laboratorio/UMT</button>
+              <button type="button" class="l-indication__button l-indication__button--process">Procedimientos</button>
+              <button type="button" class="l-indication__button l-indication__button--consultation">Interconsultas</button>
+              <button type="button" class="l-indication__button l-indication__button--other">Otras indicaciones</button>
             </div>
             <div class="l-indication__rows">
             <div class="l-indication__move">MOVER</div>
