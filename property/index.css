@@ -1,16 +1,17 @@
 .l-property {
     height: 10rem;
     width: 15rem;
-    margin: 0 1rem;
 }
 
 .l-property__title {
     color: tomato;
     margin-top: .5rem;
+    margin-left: 1rem;
 }
 
 .l-property__accordion {
     display: flex;
+    margin-left: 1rem;
 }
 
 .l-property__closed {
@@ -45,9 +46,18 @@
 }
 
 .l-property__item {
-    background: url("//oncology.en.hegc.cl/images/BDI-_icon-subcategoria_gris.svg") no-repeat left/.5rem;
-    padding-left: 1rem;
-    margin-left: 1.3rem;
+    background: url("//oncology.en.hegc.cl/images/BDI-_icon-subcategoria_gris.svg") no-repeat 2.2rem/.5rem;
+    padding-left: 2.9rem;
+}
+
+.l-property__item--active {
+    background: #f5b19c url("//oncology.en.hegc.cl/images/BDI-_icon-subcategoria_salmon.svg") no-repeat 2.2rem/.5rem;
+    color: #E16644;
+    padding-left: 2.9rem
+}
+
+.l-property__item:hover {
+    background-color: lightgrey;
 }
 
 .l-property__add {

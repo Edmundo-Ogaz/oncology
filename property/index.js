@@ -26,7 +26,7 @@ const mComp = {
             </div>
           </div>
           <div class="l-property__items">
-            <div class="l-property__item">Día 8 al 14</div>
+            <div class="l-property__item--active">Día 8 al 14</div>
             <div class="l-property__item">Día 15 al 21</div>
             <div class="l-property__item">Día 15 al 21 (Oncaspar)</div>
             <div class="l-property__item">Día 22 al 28</div>

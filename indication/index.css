@@ -17,6 +17,10 @@
     margin-right: 1.5rem;
 }
 
+.l-indication__back:hover {
+    background		: url("//oncology.en.hegc.cl/images/icono_volver-sombra.svg") no-repeat center;
+}
+
 .l-indication__breadcrumb {
     color: #a9a7a7
 }
